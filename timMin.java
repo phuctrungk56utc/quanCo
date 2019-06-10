@@ -137,10 +137,10 @@ public class timMin {
     }
     public int inPut(timMin[] input,int Xuatphat ){
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Moi nhap vi tri xuat phat, tinh tu 1->64 trai qua phai ,tren xuong duoi");
+        System.out.println("Moi nhap vi tri xuat phat, tinh tu 0->63 trai qua phai ,tren xuong duoi");
         Xuatphat = scanner.nextInt();
         input[Xuatphat].coHieu = 10;
-        System.out.println("Moi nhap vi tri dich, tinh tu 1->64 trai qua phai ,tren xuong duoi");
+        System.out.println("Moi nhap vi tri dich, tinh tu 0->63 trai qua phai ,tren xuong duoi");
         int dich = scanner.nextInt();
         input[dich].coHieu = 2;
         System.out.println("Nhap so luong quan can");
